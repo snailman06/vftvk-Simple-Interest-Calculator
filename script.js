@@ -12,7 +12,7 @@ function compute() {
     var year = new Date().getFullYear() + parseInt(years);
     var result = document.getElementById("result");
     if (principal <= "0") {
-        alert('Enter a positive number');
+        alert('Please Use possitive numbers only!');
         document.getElementById("principal").focus();
     } else {
         result.innerHTML = '\<br\>' + 'If you deposit ' + '<mark>' + principal + '</mark>' + ',' + '\<br\>'
